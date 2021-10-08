@@ -10,7 +10,7 @@ In order to perform linear-Gaussian estimation we must assume zero-mean normally
 
 The mean of the measurement model and motion model noise was computed to be 1.005d-15 m and 4.505d-5 m respectively, which is quite small relative to the mean true position magnitude 1.780 m. Therefore, the assumption of zero-mean measurement model noise is reasonable over small time scales. However, since the motion model noise has an additive effect this will lead to 0.45 m of error over 1000 seconds if left uncorrected.
 
-![](out\model_noise_vs_t.png)
+![test](out\model_noise_vs_t.png)
 
 The assumption that the noise follows a Gaussian distribution can be qualitatively assessed by plotting the histogram of the noise against a best fit normal distribution. We can also assess the fit using a Quantile-Quantile Plot, which shows the fraction of points below the given value in the data against that of the best first normal distribution. Based on these plots, it is reasonable to claim that the measurement and modified process noise roughly follow a normal distribution. However, it is not a perfect fit and can be seen that the measurement model noise has a significant deviation from normal at the edges of the distribution where there is less data.
 
