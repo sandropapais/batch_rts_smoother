@@ -2,7 +2,7 @@
 
 We use the batch linear-Gaussian algorithm to estimate the robot's one-dimensional position from odometry and laser measurements.
 
-![](out\meas_vs_t.png)
+![](out/meas_vs_t.png)
 
 ## Measurement Data Analysis
 
