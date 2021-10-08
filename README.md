@@ -1,6 +1,6 @@
 # Linear Gaussian Batch Estimation and RTS Smoother
 
-We use the batch linear-Gaussian algorithm to estimate the robot's one-dimensional position from odometry and laser measurements.
+This project uses the batch linear-Gaussian algorithm to estimate the robot's position from odometry and laser measurements.
 
 ![](out/meas_vs_t.png)
 
